@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="@drawable/loginbg"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/car"
+            android:src="@drawable/volks"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:hint="Registration number"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp"
+            android:background="@drawable/rounded"
+            android:padding="15dp"
+            android:inputType="text"
+            android:id="@+id/reg_num" />
+
+        <EditText
+            android:id="@+id/passw"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded"
+            android:hint="Password"
+            android:inputType="text"
+            android:padding="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:padding="16dp"
+            android:text="Login"
+            android:textSize="50px"
+            android:backgroundTint="@color/white"
+            android:textColor="#3B8471"
+            android:outlineAmbientShadowColor="@color/black"
+            android:id="@+id/login_btn"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
